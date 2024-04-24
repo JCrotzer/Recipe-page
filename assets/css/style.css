@@ -1,0 +1,182 @@
+:root {
+  --dark-charcoal: hsl(24, 5%, 18%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --rose-white: hsl(330, 100%, 98%);
+  --nutmeg: hsl(14, 45%, 36%);
+  --light-grey: hsl(30, 18%, 87%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.header-img {
+  width: 100%;
+  height: 171px;
+}
+
+main {
+  width: 375px;
+  padding: 0 32px 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: var(--dark-charcoal);
+  font-family: "Young Serif", serif;
+}
+
+.description {
+  color: var(--wenge-brown);
+}
+
+.preparation {
+  width: 311px;
+  height: 196px;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: var(--rose-white);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  margin: 32px 0;
+}
+
+.prep-title {
+  color: var(--dark-raspberry);
+  font-size: 24px;
+  margin-bottom: 16px;
+  text-align: top;
+}
+
+.prep-info {
+  color: var(--wenge-brown);
+  display: flex;
+  flex-direction: column;
+  width: 263px;
+  gap: 16px;
+  padding-left: 24px;
+}
+
+.prep-info li {
+  align-items: left;
+}
+
+span {
+  /* margin-left: 8px; */
+  color: var(--wenge-brown);
+  font-weight: 700;
+}
+
+.section-title {
+  color: var(--nutmeg);
+  font-family: "Young Serif", serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin: 24px 0;
+}
+
+.ingredients {
+  width: 311px;
+  height: 228px;
+  margin-bottom: 24px;
+}
+
+.ingredients ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 32px;
+}
+
+.ingredients ul li {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: var(--wenge-brown);
+  font-size: 1rem;
+  list-style-position: outside;
+}
+
+.ingredients p {
+  padding-left: 8px;
+}
+
+hr {
+  border-top: 1px solid var(--light-grey);
+  /* margin: 32px 0; */
+}
+
+.instructions {
+  width: 311px;
+  margin-bottom: 24px;
+}
+
+.instructions ol li {
+  font-weight: 400;
+  color: var(--wenge-brown);
+  padding-left: 16px;
+}
+
+.instructions ol {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 24px;
+  text-align: left;
+}
+
+.nutrition-info {
+  color: var(--wenge-brown);
+  font-weight: 400;
+}
+
+.section-title {
+  margin-bottom: 24px;
+}
+
+.calories,
+.carbs,
+.protein,
+.fat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0 32px;
+  /* padding-left: 16px; */
+}
+
+.nutritional_details {
+  margin: 24px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.count_values {
+  color: var(--dark-raspberry);
+  font-weight: 700;
+}
+
+@media screen and (min-width: 675px) {
+  .header-img {
+    width: 95%;
+    height: 400px;
+    margin: 20px;
+  }
+}
