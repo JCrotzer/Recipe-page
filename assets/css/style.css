@@ -20,7 +20,7 @@ body {
   font-size: 16px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .header-img {
@@ -28,33 +28,37 @@ body {
   height: 171px;
 }
 
-main {
-  width: 375px;
-  padding: 0 32px 0 32px;
+.recipe-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: auto 40px;
+  /* gap: 20px; */
 }
 
-.title {
-  color: var(--dark-charcoal);
-  font-family: "Young Serif", serif;
+.recipe-details h1 {
+  font-family: "Young Serif", sans-serif;
+  text-align: left;
+  margin: 20px 0px;
+  font-weight: 400;
+  font-size: 32px;
 }
 
 .description {
   color: var(--wenge-brown);
+  margin-right: 80px;
 }
 
 .preparation {
   width: 311px;
   height: 196px;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 24px;
+  margin-top: 30px;
   background-color: var(--rose-white);
   font-family: "Outfit", sans-serif;
   font-weight: 400;
-  margin: 32px 0;
 }
 
 .prep-title {
@@ -78,7 +82,6 @@ main {
 }
 
 span {
-  /* margin-left: 8px; */
   color: var(--wenge-brown);
   font-weight: 700;
 }
@@ -88,20 +91,20 @@ span {
   font-family: "Young Serif", serif;
   font-size: 1.75rem;
   font-weight: 400;
-  margin: 24px 0;
+  margin-bottom: 20px;
 }
 
 .ingredients {
   width: 311px;
   height: 228px;
-  margin-bottom: 24px;
+  margin-top: 20px;
 }
 
 .ingredients ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding-left: 32px;
+  padding-left: 26px;
 }
 
 .ingredients ul li {
@@ -117,13 +120,14 @@ span {
 }
 
 hr {
-  border-top: 1px solid var(--light-grey);
-  /* margin: 32px 0; */
+  border: 1px solid var(--light-grey);
+  margin: 20px 0;
+  width: 311px;
 }
 
 .instructions {
   width: 311px;
-  margin-bottom: 24px;
+  margin-top: 10px;
 }
 
 .instructions ol li {
@@ -138,15 +142,17 @@ hr {
   gap: 8px;
   padding-left: 24px;
   text-align: left;
+  margin-bottom: 10px;
+}
+
+.nutrition {
+  width: 311px;
+  height: 380px;
 }
 
 .nutrition-info {
   color: var(--wenge-brown);
   font-weight: 400;
-}
-
-.section-title {
-  margin-bottom: 24px;
 }
 
 .calories,
@@ -165,7 +171,6 @@ hr {
   margin: 24px 0 40px 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
 }
 
 .count_values {
