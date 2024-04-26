@@ -185,8 +185,8 @@ hr {
   main {
     max-width: 50%;
     background-color: white;
-    margin: 100px auto;
-    border-radius: 10px;
+    margin: 110px auto;
+    border-radius: 20px;
   }
 
   header {
@@ -199,7 +199,7 @@ hr {
   }
 
   .recipe-content {
-    margin: auto 20px;
+    margin: auto 40px;
   }
 
   .recipe-details h1 {
