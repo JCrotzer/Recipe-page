@@ -185,12 +185,12 @@ hr {
   main {
     max-width: 50%;
     background-color: white;
-    margin: 50px auto;
+    margin: 100px auto;
     border-radius: 10px;
   }
 
   header {
-    margin: 20px 20px 0 20px;
+    margin: 40px 40px 0 40px;
   }
 
   .header-img {
