@@ -17,7 +17,7 @@
 body {
   min-height: 100vh;
   width: 100vw;
-  font-size: 16px;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,28 +33,28 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin: auto 40px;
+  margin: auto 2.5rem;
 }
 
 .recipe-details h1 {
   font-family: "Young Serif", sans-serif;
   text-align: left;
-  margin: 20px 0px;
+  margin: 1.25rem 0;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .description {
   color: var(--wenge-brown);
-  margin-right: 80px;
+  margin-right: 5rem;
 }
 
 .preparation {
-  width: 311px;
-  height: 196px;
-  border-radius: 10px;
-  padding: 24px;
-  margin-top: 30px;
+  width: 19.4rem;
+  height: 12.25rem;
+  border-radius: 0.6rem;
+  padding: 1.5rem;
+  margin-top: 1.87rem;
   background-color: var(--rose-white);
   font-family: "Outfit", sans-serif;
   font-weight: 400;
@@ -62,8 +62,8 @@ body {
 
 .prep-title {
   color: var(--dark-raspberry);
-  font-size: 24px;
-  margin-bottom: 16px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
   text-align: top;
 }
 
@@ -71,9 +71,9 @@ body {
   color: var(--wenge-brown);
   display: flex;
   flex-direction: column;
-  width: 263px;
-  gap: 16px;
-  padding-left: 24px;
+  width: 16.4rem;
+  gap: 1rem;
+  padding-left: 1.5rem;
 }
 
 .prep-info li {
@@ -90,20 +90,20 @@ span {
   font-family: "Young Serif", serif;
   font-size: 1.75rem;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .ingredients {
-  width: 311px;
-  height: 228px;
-  margin-top: 20px;
+  width: 19.4rem;
+  height: 14.25rem;
+  margin-top: 1.25rem;
 }
 
 .ingredients ul {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding-left: 26px;
+  gap: 0.5rem;
+  padding-left: 1.62rem;
 }
 
 .ingredients ul li {
@@ -115,38 +115,38 @@ span {
 }
 
 .ingredients p {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 hr {
-  border: 1px solid var(--light-grey);
-  margin: 20px 0;
-  width: 311px;
+  border: 0.06rem solid var(--light-grey);
+  margin: 1.25rem 0;
+  width: 19.4rem;
 }
 
 .instructions {
-  width: 311px;
-  margin-top: 10px;
+  width: 19.4rem;
+  margin-top: 0.63rem;
 }
 
 .instructions ol li {
   font-weight: 400;
   color: var(--wenge-brown);
-  padding-left: 16px;
+  padding-left: 1rem;
 }
 
 .instructions ol {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding-left: 24px;
+  gap: 0.5rem;
+  padding-left: 1.5rem;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 0.62rem;
 }
 
 .nutrition {
-  width: 311px;
-  height: 380px;
+  width: 19.4rem;
+  height: 23.75rem;
 }
 
 .nutrition-info {
@@ -155,17 +155,17 @@ hr {
 }
 
 table {
-  width: 311px;
-  height: 400px;
-  margin-top: 20px;
+  width: 19.4rem;
+  height: 25rem;
+  margin-top: 1.25rem;
   border-collapse: collapse;
 }
 
 tbody {
-  margin: 0px 0 40px 0;
+  margin: 0 0 2.5rem 0;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.62rem;
 }
 
 tr {
@@ -174,7 +174,7 @@ tr {
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 2rem;
-  border-bottom: 1px solid var(--light-grey);
+  border-bottom: 0.06rem solid var(--light-grey);
 }
 
 tr:last-child {
@@ -182,7 +182,7 @@ tr:last-child {
 }
 
 .count-values {
-  width: 50px;
+  width: 3.1rem;
   color: var(--dark-raspberry);
   font-weight: 700;
   text-align: left;
@@ -196,38 +196,38 @@ tr:last-child {
   main {
     max-width: 50%;
     background-color: white;
-    margin: 110px auto;
-    border-radius: 20px;
+    margin: 6.8rem auto;
+    border-radius: 1.25rem;
   }
 
   header {
-    margin: 40px 40px 0 40px;
+    margin: 2.5rem 2.5rem 0 2.5rem;
   }
 
   .header-img {
     max-width: 100%;
-    max-height: 400px;
+    max-height: 25rem;
   }
 
   .recipe-content {
-    margin: auto 40px;
+    margin: auto 2.5rem;
   }
 
   .recipe-details h1 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 
   .preparation {
     width: 95%;
-    height: 196px;
-    border-radius: 10px;
-    padding: 24px;
-    margin-top: 30px;
+    height: 12.25rem;
+    border-radius: 0.62rem;
+    padding: 1.5rem;
+    margin-top: 1.87rem;
   }
 
   hr {
-    border: 1px solid var(--light-grey);
-    margin: 20px 0px;
+    border: 0.06rem solid var(--light-grey);
+    margin: 1.25rem 0;
     width: 95%;
   }
 
@@ -237,7 +237,7 @@ tr:last-child {
 
   .instructions {
     width: 95%;
-    margin-top: 10px;
+    margin-top: 0.63;
   }
 
   .nutrition {
@@ -254,7 +254,7 @@ tr:last-child {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 200px;
+    padding-right: 12.5rem;
   }
 
   .count_values {
