@@ -154,32 +154,43 @@ hr {
   font-weight: 400;
 }
 
-.calories,
-.carbs,
-.protein,
-.fat {
+table {
+  width: 311px;
+  height: 400px;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+tbody {
+  margin: 0px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+tr {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 16px;
-  padding: 0 32px;
-  /* padding-left: 16px; */
+  align-items: center;
+  padding: 0.75rem 2rem;
+  border-bottom: 1px solid var(--light-grey);
 }
 
-.nutritional_details {
-  margin: 24px 0 40px 0;
-  display: flex;
-  flex-direction: column;
+tr:last-child {
+  border-bottom: 0;
 }
 
-.count_values {
+.count-values {
+  width: 50px;
   color: var(--dark-raspberry);
   font-weight: 700;
+  text-align: left;
 }
 
 @media screen and (min-width: 575px) {
   body {
-    background-color: var(--rose-white);
+    background-color: #f3e5d7;
   }
 
   main {
@@ -220,6 +231,10 @@ hr {
     width: 95%;
   }
 
+  .ingredients {
+    width: 95%;
+  }
+
   .instructions {
     width: 95%;
     margin-top: 10px;
@@ -229,6 +244,9 @@ hr {
     width: 95%;
   }
 
+  table {
+    width: 95%;
+  }
   .calories,
   .carbs,
   .protein,
